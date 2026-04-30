@@ -1,0 +1,15 @@
+cmd: python src/create_features.py
+deps:
+- path: data/processed/cleaned_ratings.csv
+  hash: md5
+  md5: 89971c7e631361189bead80dad414a84
+  size: 2426
+- path: src/create_features.py
+  hash: md5
+  md5: 9a42e2b0cdd9b021fa381e652d2d814d
+  size: 191
+outs:
+- path: models/features.csv
+  hash: md5
+  md5: 38e2ad7855f3058cc089e046e419c9fc
+  size: 4295
